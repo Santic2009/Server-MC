@@ -1,358 +1,130 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-03-07 17:30:21 +0000"
+      "unlock_right_away": "2025-03-07 17:55:37 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2025-03-07 17:30:54 +0000",
-      "minecraft:forest": "2025-03-07 17:30:23 +0000"
+      "minecraft:ice_spikes": "2025-03-07 17:58:43 +0000",
+      "minecraft:frozen_ocean": "2025-03-07 17:58:39 +0000",
+      "minecraft:frozen_river": "2025-03-07 17:56:17 +0000",
+      "minecraft:deep_frozen_ocean": "2025-03-07 21:05:06 +0000",
+      "minecraft:grove": "2025-03-07 18:01:44 +0000",
+      "minecraft:stony_shore": "2025-03-07 17:58:37 +0000",
+      "minecraft:snowy_plains": "2025-03-07 17:55:38 +0000",
+      "minecraft:snowy_taiga": "2025-03-07 18:01:42 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/misc/charcoal": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "has_log": "2025-03-07 17:31:01 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_planks": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_logs": "2025-03-07 17:31:01 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wood": {
+  "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "has_log": "2025-03-07 17:31:01 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lever": {
+  "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ladder": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_stick": "2025-03-07 17:33:07 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/torch": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_stone_pickaxe": "2025-03-07 17:36:14 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
+      "in_water": "2025-03-07 18:05:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_slab": {
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
     "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_sign": {
+  "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_trapdoor": {
+  "minecraft:recipes/transportation/jungle_chest_boat": {
     "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_concrete_powder": {
+  "minecraft:recipes/transportation/acacia_chest_boat": {
     "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/stone_sword": {
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cobblestone_wall": {
+  "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_pickaxe": {
+  "minecraft:recipes/transportation/cherry_chest_boat": {
     "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_axe": {
+  "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
+      "has_boat": "2025-03-07 21:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2025-03-07 17:33:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2025-03-07 17:33:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2025-03-07 17:33:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2025-03-07 17:36:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2025-03-07 17:33:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_door": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2025-03-07 17:33:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2025-03-07 17:33:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
-    "criteria": {
-      "has_sand": "2025-03-07 17:32:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2025-03-07 17:35:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2025-03-07 17:33:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2025-03-07 17:33:04 +0000"
-    },
-    "done": true
-  },
-  "DataVersion": 3465
+  "DataVersion": 4082
 }
