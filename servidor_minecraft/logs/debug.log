@@ -1074,3 +1074,31 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [08Mar2025 19:42:25.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
 [08Mar2025 19:43:47.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
 [08Mar2025 19:43:51.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 19:44:33.787] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 19:44:33.792] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 19:45:03.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
+[08Mar2025 19:45:26.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
+[08Mar2025 19:46:15.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
+[08Mar2025 19:46:34.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
+[08Mar2025 19:47:11.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 10 [Golden Apple] to pepodlv100]
+[08Mar2025 19:47:47.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was slain by pepodlv100
+[08Mar2025 19:48:36.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
+[08Mar2025 19:48:47.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 19:48:59.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
+[08Mar2025 19:49:33.798] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 19:49:33.803] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 19:49:53.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
+[08Mar2025 19:50:04.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
+[08Mar2025 19:50:32.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
+[08Mar2025 19:50:47.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
+[08Mar2025 19:51:13.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
+[08Mar2025 19:52:35.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
+[08Mar2025 19:52:41.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
+[08Mar2025 19:52:43.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 19:52:44.115] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=10015, y=67, z=9988} BlockPos{x=10122, y=77, z=10025}
+[08Mar2025 19:53:04.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
+[08Mar2025 19:53:07.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 19:53:09.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
+[08Mar2025 19:53:19.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 19:54:33.786] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 19:54:33.790] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
