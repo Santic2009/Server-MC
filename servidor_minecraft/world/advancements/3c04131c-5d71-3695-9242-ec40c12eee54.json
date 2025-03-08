@@ -664,6 +664,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-03-08 21:11:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2025-03-08 20:34:23 +0000"
@@ -858,6 +864,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-03-08 21:11:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2025-03-08 20:37:31 +0000"
@@ -891,6 +903,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-03-08 20:44:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-03-08 21:11:35 +0000"
     },
     "done": true
   },

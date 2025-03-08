@@ -332,3 +332,17 @@
 [08Mar2025 21:02:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 fell from a high place
 [08Mar2025 21:02:55.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Sneak 100]
 [08Mar2025 21:03:24.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was obliterated by a sonically-charged shriek
+[08Mar2025 21:06:20.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti fell from a high place
+[08Mar2025 21:08:44.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has completed the challenge [Hero of the Village]
+[08Mar2025 21:09:09.819] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/54800, l='ServerLevel[world]', x=9958.93, y=71.56, z=10003.30] died, message: 'Villager was obliterated by a sonically-charged shriek'
+[08Mar2025 21:09:43.721] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/54797, l='ServerLevel[world]', x=9958.57, y=71.56, z=10004.49] died, message: 'Villager was obliterated by a sonically-charged shriek'
+[08Mar2025 21:09:53.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was obliterated by a sonically-charged shriek
+[08Mar2025 21:09:53.619] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/54798, l='ServerLevel[world]', x=9957.73, y=71.00, z=10005.37] died, message: 'Villager was obliterated by a sonically-charged shriek'
+[08Mar2025 21:10:47.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was blown up by Creeper
+[08Mar2025 21:13:12.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
+[08Mar2025 21:13:12.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 21:13:12.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
+[08Mar2025 21:13:24.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
+[08Mar2025 21:13:39.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
+[08Mar2025 21:13:39.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 21:13:39.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
