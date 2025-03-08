@@ -926,3 +926,24 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [08Mar2025 18:31:38.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Teleported pepodlv100 to Toracoco3454]
 [08Mar2025 18:32:16.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
 [08Mar2025 18:32:51.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
+[08Mar2025 18:34:30.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 18:34:30.203] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 18:34:30.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
+[08Mar2025 18:34:43.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was slain by Toracoco3454
+[08Mar2025 18:34:44.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
+[08Mar2025 18:34:51.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 18:35:18.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
+[08Mar2025 18:36:56.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
+[08Mar2025 18:36:59.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
+[08Mar2025 18:37:07.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 8495 experience points to Bauti]
+[08Mar2025 18:37:07.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
+[08Mar2025 18:37:12.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
+[08Mar2025 18:37:15.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 18:37:18.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
+[08Mar2025 18:37:22.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
+[08Mar2025 18:37:24.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
+[08Mar2025 18:37:31.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 43534 experience points to Bauti]
+[08Mar2025 18:38:52.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Take Aim]
+[08Mar2025 18:39:30.190] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 18:39:30.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 18:40:08.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [A Throwaway Joke]
