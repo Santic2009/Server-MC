@@ -1122,3 +1122,136 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [08Mar2025 20:04:18.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed 2 entities
 [08Mar2025 20:04:33.788] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [08Mar2025 20:04:33.792] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 20:05:04.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Stone Age]
+[08Mar2025 20:05:05.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 20:05:05.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
+[08Mar2025 20:05:05.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed 2 entities
+[08Mar2025 20:05:40.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 20:05:40.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
+[08Mar2025 20:05:57.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
+[08Mar2025 20:05:57.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Killed Bauti]
+[08Mar2025 20:06:35.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 20:06:35.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
+[08Mar2025 20:06:49.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 20:06:49.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
+[08Mar2025 20:06:59.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 20:06:59.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
+[08Mar2025 20:07:03.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
+[08Mar2025 20:07:03.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed Bauti
+[08Mar2025 20:07:08.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 fell from a high place
+[08Mar2025 20:07:19.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 fell from a high place
+[08Mar2025 20:07:30.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Bauti's game mode to Adventure Mode
+[08Mar2025 20:07:34.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 20:08:20.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
+[08Mar2025 20:08:20.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
+[08Mar2025 20:08:20.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed 2 entities
+[08Mar2025 20:08:37.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported 2 entities to 30000.500000, 100.000000, 30000.500000
+[08Mar2025 20:08:40.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pepodlv100 was kicked for floating too long!
+[08Mar2025 20:08:40.817] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pepodlv100 lost connection: Flying is not enabled on this server
+[08Mar2025 20:08:40.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 left the game
+[08Mar2025 20:08:50.690] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with modlist [forge, minecraft, tlskincape]
+[08Mar2025 20:08:50.874] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with channels [forge:channel_registration, forge:handshake, forge:login]
+[08Mar2025 20:08:50.875] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:08:50.875] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:08:50.875] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:08:50.875] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[08Mar2025 20:08:51.058] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 0 from client
+[08Mar2025 20:08:51.240] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 1 from client
+[08Mar2025 20:08:51.420] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 2 from client
+[08Mar2025 20:08:51.807] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 3 from client
+[08Mar2025 20:08:51.988] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 4 from client
+[08Mar2025 20:08:52.164] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 5 from client
+[08Mar2025 20:08:52.525] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 6 from client
+[08Mar2025 20:08:52.704] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 7 from client
+[08Mar2025 20:08:52.880] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 8 from client
+[08Mar2025 20:08:53.058] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 9 from client
+[08Mar2025 20:08:53.235] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 10 from client
+[08Mar2025 20:08:53.414] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 11 from client
+[08Mar2025 20:08:53.769] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 12 from client
+[08Mar2025 20:08:53.948] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 13 from client
+[08Mar2025 20:08:54.123] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 14 from client
+[08Mar2025 20:08:54.301] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 15 from client
+[08Mar2025 20:08:54.477] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 16 from client
+[08Mar2025 20:08:54.657] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 17 from client
+[08Mar2025 20:08:54.835] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 18 from client
+[08Mar2025 20:08:56.029] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
+[08Mar2025 20:08:56.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
+[08Mar2025 20:08:56.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Killed Bauti]
+[08Mar2025 20:08:57.214] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pepodlv100[/127.100.193.196:39203] logged in with entity id 41967 at (30000.5, 71.48506818453015, 30000.5)
+[08Mar2025 20:08:57.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 joined the game
+[08Mar2025 20:09:14.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Teleported pepodlv100 to Bauti]
+[08Mar2025 20:09:18.537] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with modlist [chunky, commonnetworking, forge, journeymap, journeymap_api, minecraft, tlskincape]
+[08Mar2025 20:09:18.715] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with channels [forge:channel_registration, forge:handshake, forge:login, journeymap:admin_req, journeymap:admin_save, journeymap:chunk_overlay, journeymap:common, journeymap:mp_options_req, journeymap:perm_req, journeymap:player_loc, journeymap:remove_player, journeymap:teleport_req, journeymap:version, journeymap:waypoint, worldinfo:world_id]
+[08Mar2025 20:09:18.716] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:09:18.716] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:09:18.716] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:09:18.716] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[08Mar2025 20:09:18.896] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 0 from client
+[08Mar2025 20:09:19.067] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 1 from client
+[08Mar2025 20:09:19.241] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 2 from client
+[08Mar2025 20:09:19.586] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 3 from client
+[08Mar2025 20:09:19.759] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 4 from client
+[08Mar2025 20:09:19.925] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 5 from client
+[08Mar2025 20:09:20.274] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 6 from client
+[08Mar2025 20:09:20.444] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 7 from client
+[08Mar2025 20:09:20.615] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 8 from client
+[08Mar2025 20:09:20.791] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 9 from client
+[08Mar2025 20:09:20.963] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 10 from client
+[08Mar2025 20:09:21.134] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 11 from client
+[08Mar2025 20:09:21.483] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 12 from client
+[08Mar2025 20:09:21.653] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 13 from client
+[08Mar2025 20:09:21.818] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 14 from client
+[08Mar2025 20:09:21.994] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 15 from client
+[08Mar2025 20:09:22.167] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 16 from client
+[08Mar2025 20:09:22.338] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 17 from client
+[08Mar2025 20:09:22.509] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 18 from client
+[08Mar2025 20:09:22.956] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
+[08Mar2025 20:09:23.919] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:48427] logged in with entity id 42385 at (9982.202596023586, 63.379472269075194, 10015.111948390484)
+[08Mar2025 20:09:23.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
+[08Mar2025 20:09:33.218] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
+[08Mar2025 20:09:33.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
+[08Mar2025 20:09:33.785] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 20:09:33.789] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 20:10:04.977] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with modlist [chunky, commonnetworking, forge, journeymap, journeymap_api, minecraft, tlskincape]
+[08Mar2025 20:10:05.145] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with channels [forge:channel_registration, forge:handshake, forge:login, journeymap:admin_req, journeymap:admin_save, journeymap:chunk_overlay, journeymap:common, journeymap:mp_options_req, journeymap:perm_req, journeymap:player_loc, journeymap:remove_player, journeymap:teleport_req, journeymap:version, journeymap:waypoint, worldinfo:world_id]
+[08Mar2025 20:10:05.145] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:10:05.145] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:10:05.145] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Version test of 'PRESENT 0' from client : ACCEPTED
+[08Mar2025 20:10:05.145] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[08Mar2025 20:10:05.319] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 0 from client
+[08Mar2025 20:10:05.488] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 1 from client
+[08Mar2025 20:10:05.659] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 2 from client
+[08Mar2025 20:10:05.987] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 3 from client
+[08Mar2025 20:10:06.154] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 4 from client
+[08Mar2025 20:10:06.329] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 5 from client
+[08Mar2025 20:10:06.662] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 6 from client
+[08Mar2025 20:10:06.830] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 7 from client
+[08Mar2025 20:10:07.005] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 8 from client
+[08Mar2025 20:10:07.168] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 9 from client
+[08Mar2025 20:10:07.335] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 10 from client
+[08Mar2025 20:10:07.503] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 11 from client
+[08Mar2025 20:10:07.837] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 12 from client
+[08Mar2025 20:10:08.005] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 13 from client
+[08Mar2025 20:10:08.171] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 14 from client
+[08Mar2025 20:10:08.339] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 15 from client
+[08Mar2025 20:10:08.500] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 16 from client
+[08Mar2025 20:10:08.665] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 17 from client
+[08Mar2025 20:10:08.830] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 18 from client
+[08Mar2025 20:10:09.253] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
+[08Mar2025 20:10:10.220] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:50147] logged in with entity id 42596 at (9982.202596023586, 63.379472269075194, 10015.111948390484)
+[08Mar2025 20:10:10.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
+[08Mar2025 20:10:31.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
+[08Mar2025 20:10:38.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
+[08Mar2025 20:10:45.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Teleported pepodlv100 to Bauti]
+[08Mar2025 20:11:01.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Gamerule disablePlayerMovementCheck is now set to: false]
+[08Mar2025 20:11:15.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
+[08Mar2025 20:11:22.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
+[08Mar2025 20:12:25.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
+[08Mar2025 20:12:36.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was slain by Bauti
+[08Mar2025 20:14:29.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Who is Cutting Onions?]
+[08Mar2025 20:14:33.790] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 20:14:33.794] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 20:19:33.791] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 20:19:33.795] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Mar2025 20:24:33.791] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Mar2025 20:24:33.797] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
