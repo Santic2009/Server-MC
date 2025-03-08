@@ -1,173 +1,46 @@
-[08Mar2025 15:07:32.115] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[08Mar2025 15:07:32.118] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1
-[08Mar2025 15:07:32.119] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.6 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[08Mar2025 15:07:32.264] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[08Mar2025 15:07:32.558] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[08Mar2025 15:07:32.885] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[08Mar2025 15:07:33.817] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[08Mar2025 15:07:34.238] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[08Mar2025 15:07:34.373] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[08Mar2025 15:07:41.445] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
-[08Mar2025 15:07:41.446] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
-[08Mar2025 15:07:41.465] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[08Mar2025 15:07:42.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Mar2025 15:07:42.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 53.0.25 Target: 53.1.0
-[08Mar2025 15:07:43.784] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08Mar2025 15:07:46.643] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
-[08Mar2025 15:07:46.671] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
-[08Mar2025 15:07:46.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
-[08Mar2025 15:07:46.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Mar2025 15:07:46.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Mar2025 15:07:46.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Mar2025 15:07:46.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Mar2025 15:07:47.039] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Mar2025 15:07:47.093] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Mar2025 15:07:47.094] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Mar2025 15:07:47.094] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Mar2025 15:07:47.094] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Mar2025 15:07:47.155] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Mar2025 15:07:47.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Mar2025 15:07:51.007] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 15:07:51.009] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 15:07:51.009] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 15:07:51.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 15:07:51.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 15:07:51.011] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 15:07:51.012] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 15:07:51.133] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3410 ms
-[08Mar2025 15:07:51.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.022s)! For help, type "help"
-[08Mar2025 15:07:51.146] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Mar2025 15:07:51.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task continuing for minecraft:overworld.
-[08Mar2025 15:07:51.376] [IO-Worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 80298 chunks (5.13%), ETA: 0:53:22, Rate: 463.6 cps, Current: 78, 159
-[08Mar2025 15:07:52.376] [IO-Worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 85380 chunks (5.46%), ETA: 0:05:20, Rate: 4620.2 cps, Current: 169, 88
-[08Mar2025 15:07:53.377] [IO-Worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 92326 chunks (5.90%), ETA: 0:04:17, Rate: 5719.2 cps, Current: 175, -148
-[08Mar2025 15:07:54.447] [IO-Worker-4/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 99097 chunks (6.33%), ETA: 0:04:07, Rate: 5923.9 cps, Current: -3, -151
-[08Mar2025 15:07:55.448] [IO-Worker-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 106055 chunks (6.78%), ETA: 0:03:56, Rate: 6169.7 cps, Current: -141, -39
-[08Mar2025 15:07:56.449] [IO-Worker-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 112650 chunks (7.20%), ETA: 0:03:52, Rate: 6250.6 cps, Current: -157, 162
-[08Mar2025 15:07:57.499] [IO-Worker-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 119621 chunks (7.64%), ETA: 0:03:48, Rate: 6316.0 cps, Current: 55, 173
-[08Mar2025 15:07:58.500] [IO-Worker-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 124697 chunks (7.97%), ETA: 0:03:54, Rate: 6143.7 cps, Current: 221, 169
-[08Mar2025 15:07:59.507] [IO-Worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 130902 chunks (8.36%), ETA: 0:03:53, Rate: 6146.0 cps, Current: 208, -17
-[08Mar2025 15:08:00.508] [IO-Worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 135702 chunks (8.67%), ETA: 0:03:58, Rate: 5999.7 cps, Current: 215, -176
-[08Mar2025 15:08:01.540] [IO-Worker-2/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 138767 chunks (8.87%), ETA: 0:04:10, Rate: 5695.9 cps, Current: 114, -176
-[08Mar2025 15:08:02.570] [IO-Worker-4/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 141497 chunks (9.04%), ETA: 0:04:22, Rate: 5418.4 cps, Current: 9, -179
-[08Mar2025 15:08:03.813] [IO-Worker-2/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 142988 chunks (9.14%), ETA: 0:04:44, Rate: 5000.1 cps, Current: -6, -165
-[08Mar2025 15:08:04.825] [IO-Worker-4/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 143893 chunks (9.19%), ETA: 0:05:02, Rate: 4694.0 cps, Current: -42, -176
-[08Mar2025 15:08:06.106] [IO-Worker-2/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 144560 chunks (9.24%), ETA: 0:05:27, Rate: 4333.8 cps, Current: -84, -177
-[08Mar2025 15:08:07.111] [IO-Worker-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 146188 chunks (9.34%), ETA: 0:05:40, Rate: 4161.4 cps, Current: -99, -180
-[08Mar2025 15:08:08.112] [IO-Worker-3/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 146887 chunks (9.39%), ETA: 0:05:58, Rate: 3955.6 cps, Current: -146, -172
-[08Mar2025 15:08:09.126] [IO-Worker-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 147632 chunks (9.43%), ETA: 0:06:15, Rate: 3773.0 cps, Current: -180, -177
-[08Mar2025 15:08:10.249] [IO-Worker-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 148579 chunks (9.49%), ETA: 0:06:33, Rate: 3599.6 cps, Current: -179, -155
-[08Mar2025 15:08:11.258] [IO-Worker-5/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 150288 chunks (9.60%), ETA: 0:06:43, Rate: 3503.3 cps, Current: -161, -116
-[08Mar2025 15:08:12.265] [IO-Worker-5/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 153362 chunks (9.80%), ETA: 0:06:45, Rate: 3481.7 cps, Current: -162, -21
-[08Mar2025 15:08:19.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
-[08Mar2025 15:08:19.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: chunky stop<--[HERE]
-[08Mar2025 15:08:21.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154625 chunks (9.88%), ETA: 0:09:52, Rate: 2378.5 cps, Current: -185, 35
-[08Mar2025 15:08:23.961] [Worker-Main-2/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154689 chunks (9.88%), ETA: 0:12:25, Rate: 1892.8 cps, Current: -184, 32
-[08Mar2025 15:08:24.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154695 chunks (9.88%), ETA: 0:14:04, Rate: 1669.8 cps, Current: -184, 34
-[08Mar2025 15:08:26.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154749 chunks (9.89%), ETA: 0:18:36, Rate: 1263.0 cps, Current: -183, 39
-[08Mar2025 15:08:27.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154753 chunks (9.89%), ETA: 0:22:11, Rate: 1059.1 cps, Current: -182, 40
-[08Mar2025 15:08:28.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154778 chunks (9.89%), ETA: 0:27:51, Rate: 843.6 cps, Current: -178, 40
-[08Mar2025 15:08:29.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
-[08Mar2025 15:08:29.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: chunky finish<--[HERE]
-[08Mar2025 15:08:30.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154797 chunks (9.89%), ETA: 0:41:38, Rate: 564.5 cps, Current: -179, 46
-[08Mar2025 15:08:31.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154804 chunks (9.89%), ETA: 0:50:21, Rate: 466.7 cps, Current: -181, 46
-[08Mar2025 15:08:32.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154813 chunks (9.89%), ETA: 0:56:29, Rate: 416.0 cps, Current: -186, 41
-[08Mar2025 15:08:34.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154851 chunks (9.89%), ETA: 1:05:25, Rate: 359.2 cps, Current: -189, 42
-[08Mar2025 15:08:35.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154878 chunks (9.90%), ETA: 1:07:40, Rate: 347.3 cps, Current: -192, 46
-[08Mar2025 15:08:36.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154899 chunks (9.90%), ETA: 1:12:15, Rate: 325.2 cps, Current: -189, 51
-[08Mar2025 15:08:37.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154923 chunks (9.90%), ETA: 1:24:09, Rate: 279.3 cps, Current: -187, 53
-[08Mar2025 15:08:39.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154940 chunks (9.90%), ETA: 1:47:46, Rate: 218.1 cps, Current: -190, 56
-[08Mar2025 15:08:40.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 154957 chunks (9.90%), ETA: 2:09:54, Rate: 180.9 cps, Current: -192, 59
-[08Mar2025 15:08:41.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155004 chunks (9.90%), ETA: 4:28:21, Rate: 87.6 cps, Current: -187, 63
-[08Mar2025 15:08:42.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155016 chunks (9.91%), ETA: 20:43:55, Rate: 18.9 cps, Current: -182, 60
-[08Mar2025 15:08:43.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155038 chunks (9.91%), ETA: 20:49:09, Rate: 18.8 cps, Current: -181, 62
-[08Mar2025 15:08:47.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155121 chunks (9.91%), ETA: 20:15:42, Rate: 19.3 cps, Current: -180, 48
-[08Mar2025 15:08:48.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155137 chunks (9.91%), ETA: 20:43:43, Rate: 18.9 cps, Current: -175, 51
-[08Mar2025 15:08:50.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155144 chunks (9.91%), ETA: 21:45:14, Rate: 18.0 cps, Current: -174, 49
-[08Mar2025 15:08:51.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155198 chunks (9.92%), ETA: 21:30:17, Rate: 18.2 cps, Current: -169, 53
-[08Mar2025 15:08:53.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155220 chunks (9.92%), ETA: 21:30:13, Rate: 18.2 cps, Current: -174, 58
-[08Mar2025 15:08:54.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155253 chunks (9.92%), ETA: 20:28:00, Rate: 19.1 cps, Current: -175, 63
-[08Mar2025 15:08:55.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155264 chunks (9.92%), ETA: 21:56:28, Rate: 17.8 cps, Current: -169, 63
-[08Mar2025 15:08:56.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155339 chunks (9.93%), ETA: 19:08:20, Rate: 20.5 cps, Current: -167, 54
-[08Mar2025 15:08:57.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155376 chunks (9.93%), ETA: 18:48:11, Rate: 20.8 cps, Current: -165, 48
-[08Mar2025 15:08:59.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155395 chunks (9.93%), ETA: 18:37:43, Rate: 21.0 cps, Current: -163, 47
-[08Mar2025 15:09:00.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155408 chunks (9.93%), ETA: 19:04:29, Rate: 20.5 cps, Current: -161, 43
-[08Mar2025 15:09:02.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155457 chunks (9.93%), ETA: 18:02:50, Rate: 21.7 cps, Current: -169, 47
-[08Mar2025 15:09:04.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155521 chunks (9.94%), ETA: 17:30:08, Rate: 22.4 cps, Current: -170, 39
-[08Mar2025 15:09:05.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155590 chunks (9.94%), ETA: 16:26:15, Rate: 23.8 cps, Current: -165, 36
-[08Mar2025 15:09:07.226] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:50239] logged in with entity id 561 at (0.440660259306603, 94.0, -0.9589896287219196)
-[08Mar2025 15:09:07.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
-[08Mar2025 15:09:09.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155649 chunks (9.95%), ETA: 16:36:32, Rate: 23.6 cps, Current: -188, 69
-[08Mar2025 15:09:11.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155713 chunks (9.95%), ETA: 16:22:18, Rate: 23.9 cps, Current: -184, 65
-[08Mar2025 15:09:12.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155714 chunks (9.95%), ETA: 16:35:56, Rate: 23.6 cps, Current: -184, 64
-[08Mar2025 15:09:13.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155765 chunks (9.95%), ETA: 16:06:08, Rate: 24.3 cps, Current: -180, 71
-[08Mar2025 15:09:14.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155777 chunks (9.95%), ETA: 16:25:31, Rate: 23.8 cps, Current: -181, 73
-[08Mar2025 15:09:16.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155809 chunks (9.96%), ETA: 16:18:56, Rate: 24.0 cps, Current: -177, 73
-[08Mar2025 15:09:17.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155825 chunks (9.96%), ETA: 16:35:33, Rate: 23.6 cps, Current: -183, 76
-[08Mar2025 15:09:18.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155873 chunks (9.96%), ETA: 15:45:55, Rate: 24.8 cps, Current: -189, 72
-[08Mar2025 15:09:19.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155905 chunks (9.96%), ETA: 14:56:11, Rate: 26.2 cps, Current: -190, 81
-[08Mar2025 15:09:20.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155922 chunks (9.96%), ETA: 15:29:24, Rate: 25.3 cps, Current: -188, 81
-[08Mar2025 15:09:21.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155953 chunks (9.97%), ETA: 15:23:38, Rate: 25.4 cps, Current: -185, 86
-[08Mar2025 15:09:22.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155965 chunks (9.97%), ETA: 15:31:23, Rate: 25.2 cps, Current: -191, 88
-[08Mar2025 15:09:23.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 155972 chunks (9.97%), ETA: 16:07:12, Rate: 24.3 cps, Current: -190, 91
-[08Mar2025 15:09:26.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156033 chunks (9.97%), ETA: 16:36:43, Rate: 23.6 cps, Current: -184, 88
-[08Mar2025 15:09:27.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156070 chunks (9.97%), ETA: 16:28:37, Rate: 23.8 cps, Current: -183, 95
-[08Mar2025 15:09:28.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156145 chunks (9.98%), ETA: 15:18:26, Rate: 25.6 cps, Current: -178, 83
-[08Mar2025 15:09:29.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156148 chunks (9.98%), ETA: 15:27:43, Rate: 25.3 cps, Current: -180, 83
-[08Mar2025 15:09:30.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156175 chunks (9.98%), ETA: 15:27:29, Rate: 25.3 cps, Current: -173, 83
-[08Mar2025 15:09:32.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156223 chunks (9.98%), ETA: 15:03:51, Rate: 26.0 cps, Current: -170, 87
-[08Mar2025 15:09:33.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156237 chunks (9.98%), ETA: 15:36:11, Rate: 25.1 cps, Current: -174, 88
-[08Mar2025 15:09:34.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156279 chunks (9.99%), ETA: 15:17:50, Rate: 25.6 cps, Current: -171, 93
-[08Mar2025 15:09:35.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156329 chunks (9.99%), ETA: 15:43:02, Rate: 24.9 cps, Current: -162, 92
-[08Mar2025 15:09:36.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156371 chunks (9.99%), ETA: 14:23:13, Rate: 27.2 cps, Current: -168, 85
-[08Mar2025 15:09:37.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156417 chunks (9.99%), ETA: 14:11:59, Rate: 27.6 cps, Current: -162, 77
-[08Mar2025 15:09:38.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 156423 chunks (10.00%), ETA: 14:36:24, Rate: 26.8 cps, Current: -163, 79
-[08Mar2025 15:09:38.910] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task stopped for minecraft:overworld.
-[08Mar2025 15:09:38.912] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
-java.lang.NoClassDefFoundError: org/popcraft/chunky/command/TrimCommand$Task
-	at TRANSFORMER/chunky@1.4.27/org.popcraft.chunky.command.CancelCommand.lambda$execute$3(CancelCommand.java:56) ~[Chunky-Forge-1.4.27.jar!/:1.4.27]
-	at TRANSFORMER/chunky@1.4.27/org.popcraft.chunky.command.ConfirmCommand.execute(ConfirmCommand.java:24) ~[Chunky-Forge-1.4.27.jar!/:1.4.27]
-	at TRANSFORMER/chunky@1.4.27/org.popcraft.chunky.ChunkyForge.lambda$onRegisterCommands$1(ChunkyForge.java:90) ~[Chunky-Forge-1.4.27.jar!/:1.4.27]
-	at SECURE-BOOTSTRAP/brigadier@1.3.10/com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:29) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:8) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:107) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.Commands.executeCommandInContext(Commands.java:364) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.Commands.performCommand(Commands.java:288) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:1244) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$7(ServerGamePacketListenerImpl.java:1231) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.TickTask.run(TickTask.java:18) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:894) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:177) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:877) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:871) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:836) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:844) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:724) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:278) ~[forge-1.21.3-53.0.25-server.jar!/:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.ClassNotFoundException: org.popcraft.chunky.command.TrimCommand$Task
-	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.loadClass(SecureModuleClassLoader.java:454) ~[securemodules-2.2.20.jar!/:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	... 27 more
-[08Mar2025 15:09:39.013] [Server thread/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[08Mar2025 15:09:39.067] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 0dc05864-4dbd-4df2-96ea-9dd79e8c0719
-[08Mar2025 15:09:39.073] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/Server-MC/servidor_minecraft/crash-reports/crash-2025-03-08_15.09.39-server.txt
-[08Mar2025 15:09:39.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Mar2025 15:09:39.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Mar2025 15:09:39.111] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Server closed
-[08Mar2025 15:09:39.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
-[08Mar2025 15:09:39.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Mar2025 15:09:39.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08Mar2025 15:09:41.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[08Mar2025 15:09:41.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[08Mar2025 15:09:41.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08Mar2025 15:09:41.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08Mar2025 15:09:41.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08Mar2025 15:09:41.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Mar2025 17:52:52.288] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[08Mar2025 17:52:52.291] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1
+[08Mar2025 17:52:52.292] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.6 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[08Mar2025 17:52:52.382] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[08Mar2025 17:52:52.482] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[08Mar2025 17:52:52.692] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[08Mar2025 17:52:53.408] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[08Mar2025 17:52:53.719] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[08Mar2025 17:52:53.900] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[08Mar2025 17:52:59.199] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
+[08Mar2025 17:52:59.200] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
+[08Mar2025 17:52:59.215] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[08Mar2025 17:52:59.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Mar2025 17:53:00.326] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 53.0.25 Target: 53.1.0
+[08Mar2025 17:53:00.784] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08Mar2025 17:53:02.828] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
+[08Mar2025 17:53:02.843] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
+[08Mar2025 17:53:02.969] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
+[08Mar2025 17:53:02.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Mar2025 17:53:02.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Mar2025 17:53:02.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Mar2025 17:53:03.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Mar2025 17:53:03.108] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Mar2025 17:53:03.157] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Mar2025 17:53:03.157] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Mar2025 17:53:03.158] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Mar2025 17:53:03.158] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Mar2025 17:53:03.201] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Mar2025 17:53:03.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Mar2025 17:53:06.314] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 17:53:06.316] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 17:53:06.317] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 17:53:06.318] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 17:53:06.319] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 17:53:06.320] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 17:53:06.426] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2872 ms
+[08Mar2025 17:53:06.427] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.259s)! For help, type "help"
+[08Mar2025 17:53:06.439] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Mar2025 17:53:06.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] No tasks to continue.
+[08Mar2025 17:53:19.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:50873] logged in with entity id 1 at (-22.56063353255234, 97.0, -14.944604755106612)
+[08Mar2025 17:53:19.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
+[08Mar2025 17:54:15.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
+[08Mar2025 17:54:15.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
+[08Mar2025 17:55:15.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[08Mar2025 17:59:56.855] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:52361] logged in with entity id 294 at (-64.01714989220913, 70.0, -20.379090922363922)
+[08Mar2025 17:59:56.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
