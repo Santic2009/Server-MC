@@ -44,3 +44,6 @@
 [08Mar2025 17:55:15.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
 [08Mar2025 17:59:56.855] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:52361] logged in with entity id 294 at (-64.01714989220913, 70.0, -20.379090922363922)
 [08Mar2025 17:59:56.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
+[08Mar2025 18:04:41.168] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
+[08Mar2025 18:04:41.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
+[08Mar2025 18:05:41.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
