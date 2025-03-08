@@ -14,7 +14,8 @@
       "minecraft:grove": "2025-03-07 18:01:44 +0000",
       "minecraft:stony_shore": "2025-03-07 17:58:37 +0000",
       "minecraft:snowy_plains": "2025-03-07 17:55:38 +0000",
-      "minecraft:snowy_taiga": "2025-03-07 18:01:42 +0000"
+      "minecraft:snowy_taiga": "2025-03-07 18:01:42 +0000",
+      "minecraft:snowy_beach": "2025-03-08 02:36:24 +0000"
     },
     "done": false
   },
@@ -123,6 +124,12 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-07 21:04:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-03-08 02:32:08 +0000"
     },
     "done": true
   },
