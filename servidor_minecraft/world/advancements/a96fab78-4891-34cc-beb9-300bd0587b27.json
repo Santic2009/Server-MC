@@ -12,6 +12,7 @@
       "minecraft:frozen_river": "2025-03-08 18:31:26 +0000",
       "minecraft:forest": "2025-03-08 19:08:02 +0000",
       "minecraft:ocean": "2025-03-08 19:50:09 +0000",
+      "minecraft:river": "2025-03-08 20:36:41 +0000",
       "minecraft:stony_shore": "2025-03-08 18:55:33 +0000",
       "minecraft:snowy_plains": "2025-03-08 18:29:03 +0000",
       "minecraft:snowy_taiga": "2025-03-08 18:56:10 +0000",
@@ -1046,9 +1047,21 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-03-08 20:38:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2025-03-08 20:32:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-03-08 20:38:14 +0000"
     },
     "done": true
   },

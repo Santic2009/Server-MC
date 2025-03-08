@@ -7,15 +7,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:ice_spikes": "2025-03-07 17:58:43 +0000",
-      "minecraft:frozen_ocean": "2025-03-07 17:58:39 +0000",
       "minecraft:beach": "2025-03-08 18:57:39 +0000",
-      "minecraft:frozen_river": "2025-03-07 17:56:17 +0000",
-      "minecraft:deep_frozen_ocean": "2025-03-07 21:05:06 +0000",
-      "minecraft:grove": "2025-03-07 18:01:44 +0000",
+      "minecraft:forest": "2025-03-08 20:36:07 +0000",
       "minecraft:stony_shore": "2025-03-07 17:58:37 +0000",
       "minecraft:snowy_plains": "2025-03-07 17:55:38 +0000",
       "minecraft:snowy_taiga": "2025-03-07 18:01:42 +0000",
+      "minecraft:ice_spikes": "2025-03-07 17:58:43 +0000",
+      "minecraft:frozen_ocean": "2025-03-07 17:58:39 +0000",
+      "minecraft:frozen_river": "2025-03-07 17:56:17 +0000",
+      "minecraft:deep_frozen_ocean": "2025-03-07 21:05:06 +0000",
+      "minecraft:ocean": "2025-03-08 20:35:05 +0000",
+      "minecraft:grove": "2025-03-07 18:01:44 +0000",
       "minecraft:snowy_beach": "2025-03-08 02:36:24 +0000",
       "minecraft:plains": "2025-03-08 18:58:17 +0000"
     },
@@ -378,6 +380,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "golden_apple": "2025-03-08 18:51:55 +0000",
+      "suspicious_stew": "2025-03-08 20:41:10 +0000",
       "enchanted_golden_apple": "2025-03-08 18:30:36 +0000",
       "golden_carrot": "2025-03-08 18:39:58 +0000"
     },
@@ -673,6 +676,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-08 20:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2025-03-08 20:34:23 +0000"
@@ -703,6 +712,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-03-08 20:37:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2025-03-08 20:34:23 +0000"
@@ -721,9 +736,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-03-08 20:37:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2025-03-08 20:34:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-03-08 20:42:05 +0000"
     },
     "done": true
   },
@@ -733,9 +760,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2025-03-08 20:43:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2025-03-08 20:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-03-08 20:34:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-08 20:43:17 +0000"
     },
     "done": true
   },
@@ -751,9 +796,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-03-08 20:42:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2025-03-08 20:34:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-03-08 20:37:31 +0000"
     },
     "done": true
   },
@@ -763,9 +820,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2025-03-08 20:43:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-03-08 20:37:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2025-03-08 20:34:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2025-03-08 20:44:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-08 20:43:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-03-08 20:44:26 +0000"
     },
     "done": true
   },
