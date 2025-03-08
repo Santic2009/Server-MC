@@ -1,0 +1,139 @@
+---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 2025-03-08 15:09:39
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: org/popcraft/chunky/command/TrimCommand$Task
+	at TRANSFORMER/chunky@1.4.27/org.popcraft.chunky.command.CancelCommand.lambda$execute$3(CancelCommand.java:56) ~[Chunky-Forge-1.4.27.jar!/:1.4.27]
+	at TRANSFORMER/chunky@1.4.27/org.popcraft.chunky.command.ConfirmCommand.execute(ConfirmCommand.java:24) ~[Chunky-Forge-1.4.27.jar!/:1.4.27]
+	at TRANSFORMER/chunky@1.4.27/org.popcraft.chunky.ChunkyForge.lambda$onRegisterCommands$1(ChunkyForge.java:90) ~[Chunky-Forge-1.4.27.jar!/:1.4.27]
+	at SECURE-BOOTSTRAP/brigadier@1.3.10/com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:29) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:8) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:107) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.Commands.executeCommandInContext(Commands.java:364) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.commands.Commands.performCommand(Commands.java:288) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:1244) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$7(ServerGamePacketListenerImpl.java:1231) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.TickTask.run(TickTask.java:18) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:894) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:177) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:877) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:871) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:836) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:844) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:724) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.3/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:278) ~[forge-1.21.3-53.0.25-server.jar!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: org.popcraft.chunky.command.TrimCommand$Task
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.loadClass(SecureModuleClassLoader.java:454) ~[securemodules-2.2.20.jar!/:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 27 more
+Transformer Audit:
+  net.minecraft.commands.Commands
+    REASON: classloading
+  net.minecraft.commands.execution.CommandQueueEntry
+    REASON: classloading
+  net.minecraft.commands.execution.ExecutionContext
+    REASON: classloading
+  net.minecraft.commands.execution.UnboundEntryAction
+    REASON: classloading
+  net.minecraft.commands.execution.tasks.ExecuteCommand
+    REASON: classloading
+  net.minecraft.server.MinecraftServer
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+  net.minecraft.server.TickTask
+    REASON: classloading
+  net.minecraft.server.network.ServerGamePacketListenerImpl
+    REASON: classloading
+  net.minecraft.util.thread.BlockableEventLoop
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+  net.minecraft.util.thread.ReentrantBlockableEventLoop
+    REASON: classloading
+  org.popcraft.chunky.ChunkyForge
+    REASON: classloading
+  org.popcraft.chunky.command.CancelCommand
+    REASON: classloading
+  org.popcraft.chunky.command.ConfirmCommand
+    REASON: classloading
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.3
+	Minecraft Version ID: 1.21.3
+	Operating System: Linux (amd64) version 6.5.0-1025-azure
+	Java Version: 21.0.6, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1043529096 bytes (995 MiB) / 2147483648 bytes (2048 MiB) up to 17179869184 bytes (16384 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 7990.52
+	Virtual memory used (MiB): 4475.55
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 93142.64, total: 120377.56
+	Space in storage for workdir (MiB): available: 15262.29, total: 32077.81
+	JVM Flags: 2 total; -Xms2G -Xmx16G
+	Server Running: true
+	Player Count: 1 / 20; [ServerPlayer['Toracoco3454'/561, l='ServerLevel[world]', x=0.35, y=94.00, z=-0.52]]
+	Active Data Packs: vanilla, mod:forge, mod:chunky (incompatible)
+	Available Data Packs: minecart_improvements, mod:chunky (incompatible), mod:forge, redstone_experiments, trade_rebalance, vanilla, winter_drop
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 4361916058459462000
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.2.2
+	ModLauncher launch target: forge_server
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ object_holder_definalize PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ eventbus PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		lowcodefml@53
+		minecraft@1.0
+		javafml@53.0.25
+	Mod List: 
+		forge-1.21.3-53.0.25-server.jar                   |Minecraft                     |minecraft                     |1.21.3              |DONE      |Manifest: NOSIGNATURE
+		forge-1.21.3-53.0.25-universal.jar                |Forge                         |forge                         |53.0.25             |DONE      |Manifest: NOSIGNATURE
+		Chunky-Forge-1.4.27.jar                           |Chunky                        |chunky                        |1.4.27              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 0dc05864-4dbd-4df2-96ea-9dd79e8c0719
+	FML: 0.0
+	Forge: net.minecraftforge:53.0.25
