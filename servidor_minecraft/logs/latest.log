@@ -1,348 +1,41 @@
-[08Mar2025 17:52:52.288] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[08Mar2025 17:52:52.291] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1
-[08Mar2025 17:52:52.292] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.6 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[08Mar2025 17:52:52.382] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[08Mar2025 17:52:52.482] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[08Mar2025 17:52:52.692] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[08Mar2025 17:52:53.408] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[08Mar2025 17:52:53.719] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[08Mar2025 17:52:53.900] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[08Mar2025 17:52:59.199] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
-[08Mar2025 17:52:59.200] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
-[08Mar2025 17:52:59.215] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[08Mar2025 17:52:59.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Mar2025 17:53:00.326] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 53.0.25 Target: 53.1.0
-[08Mar2025 17:53:00.784] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08Mar2025 17:53:02.828] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
-[08Mar2025 17:53:02.843] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
-[08Mar2025 17:53:02.969] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
-[08Mar2025 17:53:02.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Mar2025 17:53:02.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Mar2025 17:53:02.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Mar2025 17:53:03.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Mar2025 17:53:03.108] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Mar2025 17:53:03.157] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Mar2025 17:53:03.157] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Mar2025 17:53:03.158] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Mar2025 17:53:03.158] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Mar2025 17:53:03.201] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Mar2025 17:53:03.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Mar2025 17:53:06.314] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 17:53:06.316] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 17:53:06.317] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 17:53:06.318] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 17:53:06.319] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 17:53:06.320] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2025 17:53:06.426] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2872 ms
-[08Mar2025 17:53:06.427] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.259s)! For help, type "help"
-[08Mar2025 17:53:06.439] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Mar2025 17:53:06.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] No tasks to continue.
-[08Mar2025 17:53:19.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:50873] logged in with entity id 1 at (-22.56063353255234, 97.0, -14.944604755106612)
-[08Mar2025 17:53:19.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
-[08Mar2025 17:54:15.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
-[08Mar2025 17:54:15.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
-[08Mar2025 17:55:15.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[08Mar2025 17:59:56.855] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:52361] logged in with entity id 294 at (-64.01714989220913, 70.0, -20.379090922363922)
-[08Mar2025 17:59:56.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
-[08Mar2025 18:04:41.168] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
-[08Mar2025 18:04:41.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
-[08Mar2025 18:05:41.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[08Mar2025 18:14:25.562] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:51907] logged in with entity id 3127 at (-263.7041809635886, 63.0, -72.2580354983332)
-[08Mar2025 18:14:25.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
-[08Mar2025 18:16:00.668] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
-[08Mar2025 18:16:00.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
-[08Mar2025 18:17:00.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[08Mar2025 18:19:30.217] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:45253] logged in with entity id 3521 at (-237.00998277973798, 63.0, -77.39159950586476)
-[08Mar2025 18:19:30.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
-[08Mar2025 18:20:13.445] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bauti[/127.105.222.177:48139] logged in with entity id 3913 at (182.5, 78.0, -31.5)
-[08Mar2025 18:20:13.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti joined the game
-[08Mar2025 18:20:13.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Bauti a server operator
-[08Mar2025 18:20:25.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Teleported Toracoco3454 to Bauti]
-[08Mar2025 18:20:34.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:22:50.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Stone Age]
-[08Mar2025 18:24:35.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported Bauti to 200.011850, 312.000000, -19.466828]
-[08Mar2025 18:24:47.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:24:51.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bauti was kicked for floating too long!
-[08Mar2025 18:24:51.273] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bauti lost connection: Flying is not enabled on this server
-[08Mar2025 18:24:51.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti left the game
-[08Mar2025 18:24:51.323] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[08Mar2025 18:25:04.623] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bauti[/127.105.222.177:33279] logged in with entity id 6976 at (200.01184986748515, 153.325194125622, -19.46682796186338)
-[08Mar2025 18:25:04.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti joined the game
-[08Mar2025 18:25:25.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:25:45.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Teleported Toracoco3454 to 0.500000, 1000.000000, 0.500000]
-[08Mar2025 18:26:18.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Teleported Toracoco3454 to Bauti]
-[08Mar2025 18:26:45.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Stone Age]
-[08Mar2025 18:27:34.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has completed the challenge [Cover Me in Debris]
-[08Mar2025 18:27:56.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has completed the challenge [Cover Me in Debris]
-[08Mar2025 18:29:02.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pepodlv100[/127.100.193.196:36215] logged in with entity id 9361 at (175.5, 77.0, -30.5)
-[08Mar2025 18:29:02.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 joined the game
-[08Mar2025 18:29:08.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:29:18.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 18:29:26.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Made pepodlv100 a server operator]
-[08Mar2025 18:29:32.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:29:33.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 18:29:41.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:29:47.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
-[08Mar2025 18:29:48.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:29:54.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 18:30:08.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was slain by Bauti
-[08Mar2025 18:30:23.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Removed every effect from Bauti]
-[08Mar2025 18:30:54.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has completed the challenge [Cover Me in Debris]
-[08Mar2025 18:31:01.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <pepodlv100> t
-[08Mar2025 18:31:14.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 18:31:38.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Teleported pepodlv100 to Toracoco3454]
-[08Mar2025 18:32:16.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:32:51.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 18:34:30.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:34:43.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was slain by Toracoco3454
-[08Mar2025 18:34:44.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 18:34:51.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:35:18.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
-[08Mar2025 18:36:56.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:36:59.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 18:37:07.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 8495 experience points to Bauti]
-[08Mar2025 18:37:07.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
-[08Mar2025 18:37:12.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 18:37:15.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:37:18.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
-[08Mar2025 18:37:22.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:37:24.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 18:37:31.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 43534 experience points to Bauti]
-[08Mar2025 18:38:52.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Take Aim]
-[08Mar2025 18:40:08.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [A Throwaway Joke]
-[08Mar2025 18:45:08.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 18:45:56.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was slain by Toracoco3454
-[08Mar2025 18:46:03.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:46:07.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
-[08Mar2025 18:46:24.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Suit Up]
-[08Mar2025 18:46:38.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:46:45.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Suit Up]
-[08Mar2025 18:46:46.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Suit Up]
-[08Mar2025 18:47:23.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Hot Stuff]
-[08Mar2025 18:47:44.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 18:48:04.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:48:50.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 18:48:51.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Crafting a New Look]
-[08Mar2025 18:49:25.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:50:31.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Diamonds!]
-[08Mar2025 18:50:52.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Crafting a New Look]
-[08Mar2025 18:50:55.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 18:51:14.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Crafting a New Look]
-[08Mar2025 18:51:56.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 18:52:02.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:52:51.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:52:57.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:53:19.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Toracoco3454
-[08Mar2025 18:53:57.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:54:05.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was slain by Bauti
-[08Mar2025 18:54:09.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Cover Me with Diamonds]
-[08Mar2025 18:54:14.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
-[08Mar2025 18:54:17.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:57:38.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Teleported Toracoco3454 to 10000.500000, 100.000000, 10000.500000]
-[08Mar2025 18:57:38.096] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3630ms or 72 ticks behind
-[08Mar2025 18:57:38.134] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bauti moved too quickly! 9.93750218982791,-0.6348933601450995,-1.3586619330638996
-[08Mar2025 18:57:46.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Teleported pepodlv100 to Toracoco3454]
-[08Mar2025 18:57:51.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported Bauti to pepodlv100]
-[08Mar2025 18:58:13.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Hot Stuff]
-[08Mar2025 18:58:22.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Cover Me with Diamonds]
-[08Mar2025 18:58:25.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Cover Me with Diamonds]
-[08Mar2025 18:58:47.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 18:59:04.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 18:59:09.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 999999999 experience points to Bauti]
-[08Mar2025 18:59:20.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 18:59:28.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 18:59:47.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:00:24.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:01:07.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:02:04.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:02:34.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:04:47.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:05:09.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:06:24.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported Bauti to Toracoco3454]
-[08Mar2025 19:06:36.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported Toracoco3454 to Bauti]
-[08Mar2025 19:06:53.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported pepodlv100 to Bauti]
-[08Mar2025 19:08:05.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:08:07.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:08:43.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:08:46.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:08:49.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Successfully filled 19080 block(s)]
-[08Mar2025 19:10:16.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 19:10:29.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:22:23.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was slain by Toracoco3454
-[08Mar2025 19:22:44.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:24:15.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Toracoco3454
-[08Mar2025 19:24:27.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Creative Mode]
-[08Mar2025 19:24:53.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:25:49.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Hot Stuff]
-[08Mar2025 19:27:07.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:27:26.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:28:08.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:28:11.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 19:28:18.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported pepodlv100 to Bauti]
-[08Mar2025 19:28:51.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:29:16.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:29:35.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Applied effect Speed to Bauti]
-[08Mar2025 19:29:57.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:30:41.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:30:49.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Applied effect Jump Boost to Bauti]
-[08Mar2025 19:33:05.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Successfully filled 27600 block(s)]
-[08Mar2025 19:33:05.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Removed every effect from Bauti]
-[08Mar2025 19:33:10.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Monster Hunter]
-[08Mar2025 19:33:11.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
-[08Mar2025 19:34:07.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:34:18.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
-[08Mar2025 19:34:36.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Successfully filled 25812 block(s)]
-[08Mar2025 19:34:54.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Successfully filled 28099 block(s)]
-[08Mar2025 19:34:59.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:35:08.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
-[08Mar2025 19:35:11.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Successfully filled 27930 block(s)]
-[08Mar2025 19:35:14.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:35:22.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Successfully filled 27470 block(s)]
-[08Mar2025 19:35:45.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Successfully filled 27075 block(s)]
-[08Mar2025 19:36:14.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:36:55.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported pepodlv100 to Bauti]
-[08Mar2025 19:37:00.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Teleported Toracoco3454 to Bauti]
-[08Mar2025 19:37:53.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:38:16.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:38:54.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:39:03.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:39:23.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:41:23.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:41:26.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:42:25.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
-[08Mar2025 19:42:25.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
-[08Mar2025 19:43:47.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:43:51.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:45:03.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:45:26.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 19:46:15.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 19:46:34.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 19:47:11.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 10 [Golden Apple] to pepodlv100]
-[08Mar2025 19:47:47.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was slain by pepodlv100
-[08Mar2025 19:48:36.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 19:48:47.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:48:59.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:49:53.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:50:04.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:50:32.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:50:47.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:51:13.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 19:52:35.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
-[08Mar2025 19:52:41.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:52:43.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:52:44.115] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=10015, y=67, z=9988} BlockPos{x=10122, y=77, z=10025}
-[08Mar2025 19:53:04.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 19:53:07.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:53:09.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
-[08Mar2025 19:53:19.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:55:11.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Spectator Mode]
-[08Mar2025 19:55:15.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 19:56:13.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 19:57:21.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Monster Hunter]
-[08Mar2025 19:59:39.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <pepodlv100> e
-[08Mar2025 20:02:10.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 20:02:25.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 999999999 experience points to Bauti]
-[08Mar2025 20:02:35.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 999999999 experience points to Bauti]
-[08Mar2025 20:02:56.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Gave 999999999 experience points to pepodlv100]
-[08Mar2025 20:03:43.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 20:03:45.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Survival Mode]
-[08Mar2025 20:03:53.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 20:03:56.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 20:04:18.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 20:04:18.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:04:18.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed 2 entities
-[08Mar2025 20:05:04.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Stone Age]
-[08Mar2025 20:05:05.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:05:05.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 20:05:05.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed 2 entities
-[08Mar2025 20:05:40.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:05:40.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
-[08Mar2025 20:05:57.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 20:05:57.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Killed Bauti]
-[08Mar2025 20:06:35.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:06:35.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
-[08Mar2025 20:06:49.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:06:49.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
-[08Mar2025 20:06:59.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:06:59.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed pepodlv100
-[08Mar2025 20:07:03.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 20:07:03.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed Bauti
-[08Mar2025 20:07:08.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 fell from a high place
-[08Mar2025 20:07:19.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 fell from a high place
-[08Mar2025 20:07:30.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Bauti's game mode to Adventure Mode
-[08Mar2025 20:07:34.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 20:08:20.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 20:08:20.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:08:20.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed 2 entities
-[08Mar2025 20:08:37.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported 2 entities to 30000.500000, 100.000000, 30000.500000
-[08Mar2025 20:08:40.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pepodlv100 was kicked for floating too long!
-[08Mar2025 20:08:40.817] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pepodlv100 lost connection: Flying is not enabled on this server
-[08Mar2025 20:08:40.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 left the game
-[08Mar2025 20:08:56.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 20:08:56.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Killed Bauti]
-[08Mar2025 20:08:57.214] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pepodlv100[/127.100.193.196:39203] logged in with entity id 41967 at (30000.5, 71.48506818453015, 30000.5)
-[08Mar2025 20:08:57.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 joined the game
-[08Mar2025 20:09:14.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Teleported pepodlv100 to Bauti]
-[08Mar2025 20:09:23.919] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:48427] logged in with entity id 42385 at (9982.202596023586, 63.379472269075194, 10015.111948390484)
-[08Mar2025 20:09:23.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
-[08Mar2025 20:09:33.218] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Toracoco3454 lost connection: Disconnected
-[08Mar2025 20:09:33.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 left the game
-[08Mar2025 20:10:10.220] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toracoco3454[/127.180.204.118:50147] logged in with entity id 42596 at (9982.202596023586, 63.379472269075194, 10015.111948390484)
-[08Mar2025 20:10:10.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 joined the game
-[08Mar2025 20:10:31.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Set own game mode to Survival Mode]
-[08Mar2025 20:10:38.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Survival Mode]
-[08Mar2025 20:10:45.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Teleported pepodlv100 to Bauti]
-[08Mar2025 20:11:01.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Toracoco3454: Gamerule disablePlayerMovementCheck is now set to: false]
-[08Mar2025 20:11:15.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepodlv100: Set own game mode to Creative Mode]
-[08Mar2025 20:11:22.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Bauti: Set own game mode to Creative Mode]
-[08Mar2025 20:12:25.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 20:12:36.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was slain by Bauti
-[08Mar2025 20:14:29.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Who is Cutting Onions?]
-[08Mar2025 20:31:02.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 20:32:23.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was slain by Toracoco3454
-[08Mar2025 20:32:52.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was blown up by Toracoco3454
-[08Mar2025 20:32:52.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was blown up by Toracoco3454
-[08Mar2025 20:32:59.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Ice Bucket Challenge]
-[08Mar2025 20:33:19.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was blown up by pepodlv100
-[08Mar2025 20:34:45.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Ice Bucket Challenge]
-[08Mar2025 20:36:42.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 20:36:42.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
-[08Mar2025 20:36:42.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 20:37:04.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
-[08Mar2025 20:37:15.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
-[08Mar2025 20:38:14.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [The End?]
-[08Mar2025 20:38:16.002] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
-[08Mar2025 20:38:16.003] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
-[08Mar2025 20:38:16.666] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2201ms or 44 ticks behind
-[08Mar2025 20:38:41.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [The End?]
-[08Mar2025 20:43:17.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was slain by Bauti
-[08Mar2025 20:46:09.592] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9970, y=56, z=9974} BlockPos{x=9970, y=55, z=9975}
-[08Mar2025 20:46:09.642] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9970, y=56, z=9974} BlockPos{x=9970, y=55, z=9975}
-[08Mar2025 20:46:42.118] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bauti lost connection: Disconnected
-[08Mar2025 20:46:42.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti left the game
-[08Mar2025 20:52:20.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has made the advancement [Voluntary Exile]
-[08Mar2025 20:53:05.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Voluntary Exile]
-[08Mar2025 20:53:05.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Monster Hunter]
-[08Mar2025 20:55:23.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has completed the challenge [Hero of the Village]
-[08Mar2025 20:55:23.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 has completed the challenge [Hero of the Village]
-[08Mar2025 21:00:03.215] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bauti[/127.105.222.177:55957] logged in with entity id 56914 at (9979.71478844064, 71.0, 10026.040774786261)
-[08Mar2025 21:00:03.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti joined the game
-[08Mar2025 21:00:51.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has made the advancement [Voluntary Exile]
-[08Mar2025 21:02:32.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was slain by Shulker
-[08Mar2025 21:02:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 fell from a high place
-[08Mar2025 21:02:55.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 has made the advancement [Sneak 100]
-[08Mar2025 21:03:24.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was obliterated by a sonically-charged shriek
-[08Mar2025 21:06:20.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti fell from a high place
-[08Mar2025 21:08:44.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti has completed the challenge [Hero of the Village]
-[08Mar2025 21:09:09.819] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/54800, l='ServerLevel[world]', x=9958.93, y=71.56, z=10003.30] died, message: 'Villager was obliterated by a sonically-charged shriek'
-[08Mar2025 21:09:43.721] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/54797, l='ServerLevel[world]', x=9958.57, y=71.56, z=10004.49] died, message: 'Villager was obliterated by a sonically-charged shriek'
-[08Mar2025 21:09:53.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was obliterated by a sonically-charged shriek
-[08Mar2025 21:09:53.619] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/54798, l='ServerLevel[world]', x=9957.73, y=71.00, z=10005.37] died, message: 'Villager was obliterated by a sonically-charged shriek'
-[08Mar2025 21:10:47.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was blown up by Creeper
-[08Mar2025 21:13:12.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 21:13:12.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 21:13:12.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
-[08Mar2025 21:13:24.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
-[08Mar2025 21:13:39.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bauti was killed
-[08Mar2025 21:13:39.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepodlv100 was killed
-[08Mar2025 21:13:39.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toracoco3454 was killed
+[08Mar2025 21:20:00.257] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[08Mar2025 21:20:00.259] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1
+[08Mar2025 21:20:00.260] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.6 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[08Mar2025 21:20:00.344] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[08Mar2025 21:20:00.445] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[08Mar2025 21:20:00.720] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[08Mar2025 21:20:01.458] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[08Mar2025 21:20:01.774] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[08Mar2025 21:20:01.890] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/Server-MC/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[08Mar2025 21:20:06.761] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
+[08Mar2025 21:20:06.762] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
+[08Mar2025 21:20:06.772] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[08Mar2025 21:20:07.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Mar2025 21:20:07.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 53.0.25 Target: 53.1.0
+[08Mar2025 21:20:08.362] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08Mar2025 21:20:10.343] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
+[08Mar2025 21:20:10.364] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
+[08Mar2025 21:20:10.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
+[08Mar2025 21:20:10.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Mar2025 21:20:10.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Mar2025 21:20:10.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Mar2025 21:20:10.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Mar2025 21:20:10.699] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Mar2025 21:20:10.755] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Mar2025 21:20:10.755] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Mar2025 21:20:10.755] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Mar2025 21:20:10.755] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Mar2025 21:20:10.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Mar2025 21:20:11.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Mar2025 21:20:11.718] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.105.222.177:44825] Disconnecting MODDED connection attempt: Server is still starting! Please wait before reconnecting.
+[08Mar2025 21:20:13.795] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 21:20:13.796] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 21:20:13.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 21:20:13.802] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 21:20:13.803] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 21:20:13.805] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2025 21:20:13.982] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2811 ms
+[08Mar2025 21:20:13.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.210s)! For help, type "help"
+[08Mar2025 21:20:14.001] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Mar2025 21:20:14.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] No tasks to continue.
+[08Mar2025 21:21:13.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
